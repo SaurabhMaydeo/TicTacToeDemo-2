@@ -48,7 +48,7 @@ class Main {
 
     }
 
-
+  System.out.println("It's a draw guys!");
 
   }
 
