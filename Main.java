@@ -26,8 +26,8 @@ class Main {
         board[i][j] = 0;
       }
     }
-
-    for(int moveCount=0; moveCount<9; moveCount++)
+    int moveCount;
+    for(moveCount=0; moveCount<9; moveCount++)
     {
       printBoard(board);
       int player = playersTurn(moveCount);
@@ -47,8 +47,10 @@ class Main {
       }
 
     }
-
+  if(moveCount == 9)
+  {
   System.out.println("It's a draw guys!");
+  }
 
   }
 
